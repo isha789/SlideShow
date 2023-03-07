@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Slideshow</title>
+    <!--<script src="slideshow.js"></script>-->
+    <!--<link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+     <div class="container">
+         <div   class="heading" id="idHeading">Image Carousel</div>
+         <img
+              id="imgHeading"
+              src="https://images.unsplash.com/photo-1588767822149-52cae1c6aa60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              height="400 vh"
+              width="400vh"
+              alt="random"
+         />
+         <br />
+         <button id="autoForward" type="button">Auto-Fwd</button>
+         <button id="forward" type="button">Forward</button>
+         <button id="backward" type="button">Backward</button>
+         <button id="autoBackward" type="button">Auto-Bwd</button>
+         <br /><br />
+         <label for="delay" id="statement">you can also add a delay time for image transition</label>
+         <br />
+         <input id="delay" name="delay" type="number" /><br />
+         <br />
+      </div>
+      <script src="slideshow.js"></script>
+   </body>
+</html>
